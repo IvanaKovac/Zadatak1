@@ -1,0 +1,169 @@
+body{
+  background-color: rgb(201, 197, 192);  
+ font-family: "Shadows Into Light Two", serif;
+ font-style: oblique;
+}
+
+.naslov{
+ color: rgb(60, 51, 45);
+ /* text-decoration: underline; */
+/* text-decoration-color: black; */
+text-shadow: 2px 2px 5px rgb(0, 0, 0); 
+text-align: center;
+font-size: 50px;
+}
+.tekst{
+ color: rgb(74, 51, 38);
+ /* text-decoration: underline; */
+/* text-decoration-color: black; */
+/* text-shadow: 2px 2px 5px rgb(109, 33, 33);  */
+text-align: center;
+/* font-style: oblique; */
+font-size: 20px;
+text-decoration: none;
+}
+
+.slike{
+ width: 350px;
+ border: 15px;
+ margin: 10px;
+ box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+.meni{
+  position: absolute; 
+top: 5px; 
+left: 12px;
+}
+#slika{
+margin-top: 5%;
+margin-bottom: 5%;
+margin-left: 0%;
+height: 700px;
+}
+
+.galerijaSlike{ 
+  margin-top: 10%;
+  height: 300px;
+  width: 400px;
+
+}
+
+.tekstIspod{
+  color: rgb(74, 51, 38);
+  font-size: 20px;
+  text-decoration: none;  
+}
+
+#forma{
+margin-top: 10%;
+margin-bottom: 5%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+#tekstAbout{
+margin-top: 10%;
+margin-bottom: 5%;
+font-size: 30px;
+text-align: center;
+text-decoration: none;
+}
+div#galerija{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#burgerMenu{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-right: 10px;
+ }
+
+ .burgerLine{
+    width: 25px;
+    height: 10px;
+    background-color: black;
+ }
+
+ #hamburgerModal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  width: 100%;
+  height: 100vh;
+ }
+ 
+ @media(max-width: 700px){
+  .meni {
+    display: none;
+  }
+
+}    
+
+@media(min-width: 700px){
+  #burgerMenu{
+    display: none;
+  }
+}
+@media screen and (min-width: 576px) {
+ .meni{
+  display: none;
+ }
+  }
+@media screen and (min-width: 768px) {
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(43, 43, 43);
+     position: fixed;
+   top: 0;
+   width: 100%;
+   }
+   li {
+    display: flex;
+    flex-direction: row;
+    float: left;
+    text-decoration: none;
+   }
+   li a {
+    display: block;
+    color: rgb(201, 197, 192);
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+   }
+}
+@media screen and (min-width: 992px) {
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(43, 43, 43);
+     position: fixed;
+   top: 0;
+   width: 100%;
+   }
+   li {
+    display: flex;
+    flex-direction: row;
+    float: left;
+    text-decoration: none;
+   }
+   li a {
+    display: block;
+    color: rgb(201, 197, 192);
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+   }
+}
+/* HAMBURGER MENI */
+

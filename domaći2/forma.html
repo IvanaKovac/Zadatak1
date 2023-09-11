@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O nama</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Shadows Into Light Two">
+    <link rel="icon" type="image/x-icon" href="img/32349-red-apple-icon.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <ul>
+        <li><img src="img/Logoo.png" alt="" width="100px" height="70px"></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="galerija.html">Galery</a></li>
+        <li><a href="forma.html">Form</a></li>
+    </ul>
+    <div id="forma">
+    <hr>
+    <h1 class="tekst" >Popunite formu</h1>
+    <h1>Kreiraj nalog</h1>
+ 
+ 
+    <form>
+        <label for="ime">Ime:</label>
+        <input id="ime"type="text">
+        <label for="prezime">Prezime:</label>
+        <input id="prezime"type="text">
+        <br>
+        <br>
+<label for="lozinka">Šifra:</label>
+        <input type="password" id="lozinka"maxlength="15">
+        <br>
+        <br>
+        <label for="slanje">Kontakt:</label>
+        <select name="slanje" id="slanje">
+<optgroup label="Email">
+  <option value="gmail">Gmail</option>
+<option value="yahoo">Yahoo</option>
+<option value="icloud">iCloud</option>
+</optgroup>
+<option value="poruka">Broj telefona</option>
+        </select>
+     <input id="kontakt"type="text">
+     <br>
+     <br>
+     <h3>Recenzija naših proizvoda</h3>
+ 
+     Koji su Vam naši omiljeni sokovi:
+     <br>
+     Sok od jabuke
+     <input type="checkbox" name="sok" value="jabuka">
+     <br>
+     Sok od kruške
+     <input type="checkbox" name="sok" value="kruška">
+     <br>
+     Sok od maline
+     <input type="checkbox" name="sok" value="malina">
+     <br>
+     Sok od jagode
+     <input type="checkbox" name="sok" value="jagoda">
+     <br>
+     Sok od breskve
+     <input type="checkbox" name="sok" value="breskva">
+     <br>
+     Sok od aronije
+     <input type="checkbox" name="sok" value="aronija">
+     <br>
+     <br>
+     Kojom ocenom biste ocenili naše proizvode:
+     <br>
+     1
+     <input type="radio" name="ocena" value="1">
+     <br>
+     2
+     <input type="radio" name="ocena" value="2">
+     <br>
+     3
+     <input type="radio" name="ocena" value="3">
+     <br>
+     4
+     <input type="radio" name="ocena" value="4">
+     <br>
+     5
+     <input type="radio" name="ocena" value="5">
+     <br>
+     <label for="komentar">Ostavi svoj komentar ili pitanje:</label>
+     <br>
+     <textarea name="komentar" id="komentar" cols="30" rows="10">...</textarea>
+     <br>
+     <button onclick="validacija()" id="dugme1" type="button">Pošalji</button>
+     <button type="reset">Obriši</button>
+    </form>
+    <hr>
+    <h3>Naš kontakt</h3>
+    Broj telefona: 060/123 4567
+    <br>
+    Email: prirodni.sokovi@gmail.com
+    <br>
+    Lokacija: Beograd, Bulevar Kralja Aleksandra 15
+</div>
+ 
+    <script src="js/javascript.js"></script>
+    <script src="js/jquery.js"></script>
+   </body>
+</html>
